@@ -5,7 +5,7 @@ Purpose: a low-power digital watch with a general clock, timer, stopwatch, alarm
 ## Toolchain
 - Standard Peripheral Libray(SPL) for quick development while having low overhead
 - COSMIC compiler is used to compile, link, and build the code
-  * To produce a working motorola(.s19) file which (ST Visual Programmer uses to flash the MCU) the following terminal commands are neccesary<br/>
+  * Terminal commands to properly run the COSMIC Compiler <br/>
     * _Debug & Compile_ <br/>
       cxstm8 -istm8s103f3_spl-master\inc +debug -pxp -no -l +mods0 -pp -i"C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Hstm8" -clDebug\ -coDebug\ src\main.c
 
