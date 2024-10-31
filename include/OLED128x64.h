@@ -6,8 +6,8 @@
 
 
 
-    #define I2C_ADDRESS1 0x3C
-    #define I2C_ADDRESS2 0x3D
+    #define OLED_I2C_ADDRESS1 0x3C
+    #define OLED_I2C_ADDRESS2 0x3D
 
     #define OLED_ROWS 128
     #define OLED_COLUMNS 64
@@ -18,7 +18,7 @@
 
         uint8_t pixels[OLED_ROWS][OLED_ROW_BYTES];
         const char text[20];
-        
+
         
     } OLED128x64;
 

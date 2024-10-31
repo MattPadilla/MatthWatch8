@@ -4,7 +4,7 @@
 #include "include/spl/stm8s.h"
 #include "include/spl/stm8s_i2c.h"
 
-#define I2C_ADDRESS 0xAD0
+#define IMU_I2C_ADDRESS 0xAD0
 
 // There are 128x64 and there are 8 bit in each section of the array
 typedef struct
@@ -18,9 +18,16 @@ typedef struct
     volatile int16_t y_rotation;
     volatile int16_t z_rotation;
 
-} IMU;
+
+} Imu;
+
+void begin_read(Imu)
+
+void read_imu_data(Imu);
+
+void end_read(Imu);
 
 
-extern IMU Imu;
+extern Imu imu;
 
 #endif
