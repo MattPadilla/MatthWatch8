@@ -1,0 +1,6 @@
+*.o
+*.ls
+*.sm8
+*.s19
+*.json
+.vscode/
