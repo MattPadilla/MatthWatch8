@@ -1,4 +1,4 @@
-#Digital Fitness Watch Personal Project
+# Digital Fitness Watch Personal Project
 Product: MatthWatch8<br/>
 To produce a working .s19 file the following terminal commands are neccesary<br/>
 * Compile:<br/>
@@ -7,4 +7,4 @@ To produce a working .s19 file the following terminal commands are neccesary<br/
   * clnk -m Debug\mattwatch8.map -l"C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib" -o Debug\matthwatch8.sm8 Debug\matthwatch8.lkf
   * cvdwarf Debug\matthwatch8.sm8
 * Build:<br/>
-  *chex -o Debug\matthwatch8.s19 Debug\matthwatch8.sm8
+  * chex -o Debug\matthwatch8.s19 Debug\matthwatch8.sm8
