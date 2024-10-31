@@ -21,7 +21,7 @@ typedef struct
 
 } Imu;
 
-void begin_read(Imu)
+void begin_read(Imu);
 
 void read_imu_data(Imu);
 
